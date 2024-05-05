@@ -229,9 +229,83 @@ h3{
 .ins{
   display: flex;
   justify-content: center;
-  
- 
-
-
 }
 
+@media (max-width:768px){
+  header{
+    flex-direction: column;
+    background-color: rgb(21, 52, 72);
+    }
+    .nav{
+      align-content: center;
+    }
+    .div .h2 .p{
+      align-content: center;
+      
+    }
+    .fdm1 {
+      font-size: 12px;
+    }
+    .fdm2{
+      width: 300px;
+      height: 300px;
+    }
+    .res1{
+      width: 300px;
+      height: 300px;
+    }
+    .res2{
+      font-size: 12px;
+    }
+}
+
+@media (max-width:320px){
+  header{
+    flex-direction: column;
+    background-color: rgb(60, 91, 111);
+    }
+    .nav{
+      align-content: center;
+    }
+    .div .h2 .p{
+      align-content: center;
+    }
+  .archivo{
+    width: 150px;
+    height: 150px;
+  }
+  .optimizacion{
+    width: 150px;
+    height: 150px;
+  }
+  .impresion{
+    width: 150px;
+    height: 150px;
+  }
+   .p1{
+      font-size: 9px;
+      align-content: center;
+    }
+    .p2{
+      font-size: 9px;
+      align-content: center;
+    }
+    .p3{
+      font-size: 9px;
+      align-content: center;
+    }
+    .fdm1 {
+      font-size: 9px;
+    }
+    .fdm2{
+      width: 150px;
+      height: 150px;
+    }
+    .res1{
+      width: 150px;
+      height: 150px;
+    }
+    .res2{
+      font-size: 9px;
+    }
+}
